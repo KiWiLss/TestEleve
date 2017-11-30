@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mContext=this;
+
+        //获取myapp的实例
+        MyApp myapp = (MyApp) getApplication();
+
+        Context appContext = getApplicationContext();
     }
 
     public void choiceWallpaper(View view) {
