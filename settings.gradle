@@ -1,1 +1,1 @@
-include ':app', ':daynight', ':day', ':changemodelibrary', ':daybyday'
+include ':app', ':daynight', ':day', ':changemodelibrary', ':daybyday', ':transtionscreen'

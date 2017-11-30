@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/day" />
             <option value="$PROJECT_DIR$/daybyday" />
             <option value="$PROJECT_DIR$/daynight" />
+            <option value="$PROJECT_DIR$/transtionscreen" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

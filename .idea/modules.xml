@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/day/day.iml" filepath="$PROJECT_DIR$/day/day.iml" />
       <module fileurl="file://$PROJECT_DIR$/daybyday/daybyday.iml" filepath="$PROJECT_DIR$/daybyday/daybyday.iml" />
       <module fileurl="file://$PROJECT_DIR$/daynight/daynight.iml" filepath="$PROJECT_DIR$/daynight/daynight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transtionscreen/transtionscreen.iml" filepath="$PROJECT_DIR$/transtionscreen/transtionscreen.iml" />
     </modules>
   </component>
 </project>
