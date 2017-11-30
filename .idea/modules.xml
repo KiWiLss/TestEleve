@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestEleve.iml" filepath="$PROJECT_DIR$/TestEleve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/changemodelibrary/changemodelibrary.iml" filepath="$PROJECT_DIR$/changemodelibrary/changemodelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day/day.iml" filepath="$PROJECT_DIR$/day/day.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daybyday/daybyday.iml" filepath="$PROJECT_DIR$/daybyday/daybyday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daynight/daynight.iml" filepath="$PROJECT_DIR$/daynight/daynight.iml" />
+    </modules>
+  </component>
+</project>

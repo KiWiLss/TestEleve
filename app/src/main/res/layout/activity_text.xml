@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_text_fore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+        <TextView
+            android:id="@+id/tv_text_fore2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+        <TextView
+            android:id="@+id/tv_text_fore3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+        <TextView
+            android:id="@+id/tv_text_fore4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+        <TextView
+            android:id="@+id/tv_text_fore5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+        <TextView
+            android:id="@+id/tv_text_fore6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+
+        <TextView
+            android:id="@+id/tv_text_fore7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+
+        <TextView
+            android:id="@+id/tv_text_fore8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+        <TextView
+            android:id="@+id/tv_text_fore9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+
+        <TextView
+            android:id="@+id/tv_text_fore10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前景色"/>
+
+        <TextView
+            android:id="@+id/tv_text_fore11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When you cube food, you cut it into cube-shaped pieces."
+            android:layout_marginTop="20dp"
+            android:lineSpacingMultiplier="1.5"/>
+    </LinearLayout>
+</ScrollView>

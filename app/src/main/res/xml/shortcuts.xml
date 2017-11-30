@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@mipmap/icon_two"
+        android:shortcutShortLabel="@string/app_name3"
+        android:shortcutLongLabel="@string/app_name4"
+        android:shortcutDisabledMessage="@string/app_name5">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.magicsoft.testeleve"
+            android:targetClass="com.magicsoft.testeleve.activity.TextActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+
+    </shortcut>
+</shortcuts>

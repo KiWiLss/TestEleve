@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android_custom="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change"
+        android:onClick="change"/>
+
+    <TextView
+        android:id="@+id/tv_mian_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textColor="?attr/zztextColor"
+        app:textColorAttr="zztextColor"
+        android:background="?attr/zzbackground"
+        app:backgroundAttr="zzbackground"
+        />
+
+ <com.magicsoft.daybyday.widget.CustomProgress
+     android:layout_width="100dp"
+     android:layout_height="100dp"
+     android:layout_marginLeft="20dp"
+     />
+
+    <com.magicsoft.daybyday.widget.Progress
+        android:id="@+id/p_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:text_num="90"
+        app:text_nuit="km"
+        app:text_rank="1"
+        app:text_all="60"
+        />
+<FrameLayout
+    android:id="@+id/fl_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+
+
+</LinearLayout>

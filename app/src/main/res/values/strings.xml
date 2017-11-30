@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestEleve</string>
+    <string name="app_name1">11</string>
+    <string name="app_name2">12</string>
+
+    <string name="app_name3">shortlabel</string>
+    <string name="app_name4">longlabel</string>
+    <string name="app_name5">message</string>
+</resources>

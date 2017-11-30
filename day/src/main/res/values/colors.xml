@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+    <color name="night_tv_color">#ffdddddd</color>
+    <color name="night_title">#262932</color>
+    <color name="night_bg">#3A3743</color>
+    <color name="light_bg">#fff0f0f0</color>
+
+    <color name="button_bg">#4E89FF</color>
+
+
+    <!-- 日间模式 -->
+    <color name="white_btn_color">#3BB32E</color>
+    <color name="black_tx_color">#333333</color>
+
+    <!-- 夜间模式 -->
+    <color name="black_btn_color">#aa7788</color>
+    <color name="white_tx_color">#f0f0f0</color>
+
+
+    <color name="theme_color_primary">#fb7299</color>
+    <color name="theme_color_primary_dark">#b85671</color>
+    <color name="theme_color_primary_trans">#99f0486c</color>
+
+
+
+
+
+    <color name="theme_color_secondary">#fb7299</color>
+
+    <color name="text_primary_color">#2d2d2d</color>
+    <color name="window_background">#eaeaea</color>
+
+    <color name="black_light">#333333</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_trans">#99ffffff</color>
+
+    <color name="gray">#bbbbbb</color>
+    <color name="gray_dark">#999999</color>
+    <color name="gray_trans">#44999999</color>
+    <color name="gray_light">#dcdcdc</color>
+
+    <!-- theme color -->
+    <color name="pink">#fb7299</color>
+    <color name="pink_dark">#b85671</color>
+    <color name="pink_trans">#99f0486c</color>
+
+    <color name="blue">#2196F3</color>
+    <color name="blue_dark">#1565C0</color>
+    <color name="blue_trans">#B41A78C3</color>
+
+    <color name="purple">#673AB7</color>
+    <color name="purple_dark">#311B92</color>
+    <color name="purple_trans">#99673AB7</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="green_dark">#2E7D32</color>
+    <color name="green_trans">#994CAF50</color>
+
+    <color name="green_light">#8BC34A</color>
+    <color name="green_light_dark">#558B2F</color>
+    <color name="green_light_trans">#998BC34A</color>
+
+    <color name="yellow">#FDD835</color>
+    <color name="yellow_dark">#FBC02D</color>
+    <color name="yellow_trans">#99FDD835</color>
+
+    <color name="orange">#FF9800</color>
+    <color name="orange_dark">#EF6C00</color>
+    <color name="orange_trans">#99FF9800</color>
+
+    <color name="red">#F44336</color>
+    <color name="red_dark">#C62828</color>
+    <color name="red_trans">#99F44336</color>
+
+
+
+    <color name="dayBackground">#F2F4F7</color>
+    <color name="dayTextColor">#000</color>
+    <color name="dayItemBackground">#fff</color>
+
+    <color name="nightItemBackground">#37474F</color>
+    <color name="nightBackground">#263238</color>
+    <color name="nightTextColor">#fff</color>
+
+    <color name="colorPrimaryNight">#263238</color>
+    <color name="colorPrimaryDarkNight">#1E282D</color>
+    <color name="colorAccentNight">#73432A</color>
+</resources>

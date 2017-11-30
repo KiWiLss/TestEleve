@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="DayTheme" parent="AppTheme">
+        <item name="zzbackground">@color/dayBackground</item>
+        <item name="zzbackgroundDrawable">@mipmap/ic_launcher</item>
+        <item name="zztextColor">@color/dayTextColor</item>
+        <item name="zzItemBackground">@color/dayItemBackground</item>
+
+    </style>
+    <style name="NightTheme" parent="AppTheme">
+        <item name="zzbackground">@color/nightBackground</item>
+        <item name="zzbackgroundDrawable">@color/nightBackground</item>
+        <item name="zztextColor">@color/nightTextColor</item>
+        <item name="zzItemBackground">@color/nightItemBackground</item>
+
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--自定义半圆形加载进度条-->
+    <declare-styleable name="HalfProgressBar">
+        <attr name="roundColor1" format="color"/>
+        <attr name="roundProgressColor1" format="color"/>
+        <attr name="circularDotColor1" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="Progress">
+        <attr name="text_num" format="string"></attr>
+        <attr name="text_nuit" format="string"></attr>
+        <attr name="text_all" format="string"></attr>
+        <attr name="text_rank" format="string"/>
+    </declare-styleable>
+</resources>
