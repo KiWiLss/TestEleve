@@ -41,7 +41,8 @@
                     android:background="@mipmap/shake_top_line"
                     android:id="@+id/main_shake_top_line"
                     android:layout_width="match_parent"
-                    android:layout_height="5dp"/>
+                    android:layout_height="5dp"
+                    android:visibility="gone"/>
             </LinearLayout>
             <!--底部的横线和图片-->
             <LinearLayout
@@ -54,7 +55,8 @@
                     android:background="@mipmap/shake_bottom_line"
                     android:id="@+id/main_shake_bottom_line"
                     android:layout_width="match_parent"
-                    android:layout_height="5dp"/>
+                    android:layout_height="5dp"
+                    android:visibility="gone"/>
                 <ImageView
                     android:src="@mipmap/shake_bottom"
                     android:id="@+id/main_shake_bottom"
