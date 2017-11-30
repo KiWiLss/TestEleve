@@ -17,7 +17,11 @@
             android:layout_height="wrap_content"
             android:text="选择壁纸"
             android:onClick="choiceWallpaper"/>
-
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="瑶瑶"
+            android:onClick="wechat"/>
 
 
     </LinearLayout>

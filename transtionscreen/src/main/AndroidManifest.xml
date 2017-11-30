@@ -8,6 +8,8 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
 
     <application android:name=".MyApp" android:allowBackup="true" android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round"
@@ -35,7 +37,7 @@
                 android:resource="@xml/livewallpaper" />
         </service>
 
-
+        <activity android:name=".activity.WechatActivity"/>
     </application>
 
 </manifest>

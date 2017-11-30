@@ -12,6 +12,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import com.magicsoft.transtionscreen.activity.WechatActivity;
+
 public class MainActivity extends AppCompatActivity {
     private static final int PERMISSIONS_REQUEST_CAMERA = 454;
     private Context mContext;
@@ -78,5 +80,9 @@ public class MainActivity extends AppCompatActivity {
      */
     void setTransparentWallpaper() {
         startService(new Intent(mContext, CameraLiveWallpaper.class));
+    }
+
+    public void wechat(View view) {
+        startActivity(new Intent(mContext, WechatActivity.class));
     }
 }
