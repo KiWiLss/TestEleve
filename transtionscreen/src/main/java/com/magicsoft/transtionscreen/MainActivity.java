@@ -4,18 +4,22 @@ import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.magicsoft.transtionscreen.activity.BannerActivity;
 import com.magicsoft.transtionscreen.activity.WechatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private static final int PERMISSIONS_REQUEST_CAMERA = 454;
+    public static final String TAG = "MMM";
     private Context mContext;
     static final String PERMISSION_CAMERA = Manifest.permission.CAMERA;
     @Override
@@ -28,6 +32,11 @@ public class MainActivity extends AppCompatActivity {
         MyApp myapp = (MyApp) getApplication();
 
         Context appContext = getApplicationContext();
+
+        Log.e(TAG, "onCreate: "+(android.os.Build.BRAND) +"||"+ Build.MANUFACTURER);
+
+
+
     }
 
     public void choiceWallpaper(View view) {
@@ -84,5 +93,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void wechat(View view) {
         startActivity(new Intent(mContext, WechatActivity.class));
+    }
+
+    public void text(View view) {
+        startActivity(new Intent(mContext, BannerActivity.class));
     }
 }

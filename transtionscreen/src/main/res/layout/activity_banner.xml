@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_banner_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从事Android开发平时少不了要自定义一些控件！从事Android开发平时少不了要自定义一些控件从事Android开发平时少不了要自定义一些控件从事Android开发平时少不了要自定义一些控件从事Android开发平时少不了要自定义一些控件从事Android开发平时少不了要自定义一些控件从事Android开发平时少不了要自定义一些控件从事Android开发平时少不了要自定义一些控件从事Android开发平时少不了要自定义一些控件我们始终有一些特殊的需求系统原生控件并不能完全满足我们的需求。 而我们总是在工程之间拷贝也很麻烦！那么本项目主要的目的就是将一些封装的控件整合起来，让开发更加方便，让使用更加简单"
+        />
+
+
+    <com.magicsoft.transtionscreen.widget.CustomOne
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="#ebebeb"
+        />
+
+
+</LinearLayout>

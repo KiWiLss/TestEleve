@@ -38,6 +38,7 @@
         </service>
 
         <activity android:name=".activity.WechatActivity"/>
+        <activity android:name=".activity.BannerActivity"/>
     </application>
 
 </manifest>
